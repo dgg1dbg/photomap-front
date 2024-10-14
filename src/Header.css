@@ -1,0 +1,25 @@
+.header-container {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  background-color: #333;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #555;
+  transition: background-color 0.3s;
+}
+
+.header-link:hover {
+  background-color: #777;
+}
+
+.logout-button {
+  background-color: red; /* Optional: Different color for logout */
+  border: none;
+  cursor: pointer;
+}
